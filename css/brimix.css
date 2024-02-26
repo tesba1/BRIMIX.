@@ -1,0 +1,135 @@
+:root {
+    --primecolor:yellow;
+    --secondcolor:rgb(98, 0, 255);
+    --thirdcolor: rgb(255, 0, 0) ;
+    --lightcolor: #ffffff;
+    --bgcolor:rgb(0, 0, 0);
+    --bgcolor-2:rgb(29, 29, 29);
+    --padding: 8%;
+     }
+
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: black;
+}
+ 
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 2.2rem;
+    padding-top: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+   
+
+}
+
+h2:hover{
+     background-color: transparent;
+     color: yellow;
+     transition: 1s;
+}
+
+
+.home{
+    text-decoration: solid;
+}
+ 
+
+h4{
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+}
+span{
+    color: var(--primecolor);
+}
+
+
+.content{
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.content h4{
+    padding-bottom: 30px;
+}
+
+footer{
+color: #ffffff;  
+letter-spacing: 0.12rem;  
+text-align: center;
+justify-content: center;
+padding-top: 20px;
+}
+
+
+.end{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+
+.content a{
+    background-color: var(--primecolor);
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:1.3rem 1.3rem ;
+    border: 2px solid transparent;
+    transition: 1s;
+    border-color: yellow;
+    width: 30%;
+    padding: 10px;
+}
+
+.content a:hover{
+    background-color: transparent;
+    border: 2px solid var(--primecolor);
+    color: var(--lightcolor);
+    transition: 1s;
+}
+
+.bx{
+    padding-top: 60px;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+  
+.bx a{
+    background-color: var(--primecolor);
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:1.3rem 1.3rem ;
+    border: 2px solid transparent;
+    transition: 1s;
+    border-color: yellow;
+    width: 30%;
+    padding: 10px;
+
+}
+
+
+.bx a:hover{
+    background-color: transparent;
+    border: 2px solid var(--primecolor);
+    color: var(--lightcolor);
+    transition: 1s; 
+    }
+
